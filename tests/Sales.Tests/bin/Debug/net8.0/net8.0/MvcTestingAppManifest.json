@@ -1,0 +1,5 @@
+{
+  "Sales.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\SalesAPI\\src\\Sales.Application",
+  "Sales.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\SalesAPI\\src\\Sales.Data",
+  "Sales.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Projetos\\SalesAPI\\src\\Sales.Domain"
+}

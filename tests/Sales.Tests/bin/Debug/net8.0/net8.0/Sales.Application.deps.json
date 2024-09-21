@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Sales.Application/1.0.0": {
+        "dependencies": {
+          "Sales.Data": "1.0.0",
+          "Sales.Domain": "1.0.0",
+          "Serilog": "4.0.0"
+        },
+        "runtime": {
+          "Sales.Application.dll": {}
+        }
+      },
+      "Serilog/4.0.0": {
+        "runtime": {
+          "lib/net8.0/Serilog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Sales.Data/1.0.0": {
+        "dependencies": {
+          "Sales.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Sales.Data.dll": {}
+        }
+      },
+      "Sales.Domain/1.0.0": {
+        "runtime": {
+          "Sales.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sales.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2jDkUrSh5EofOp7Lx5Zgy0EB+7hXjjxE2ktTb1WVQmU00lDACR2TdROGKU0K1pDTBSJBN1PqgYpgOZF8mL7NJw==",
+      "path": "serilog/4.0.0",
+      "hashPath": "serilog.4.0.0.nupkg.sha512"
+    },
+    "Sales.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sales.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

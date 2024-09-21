@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UfeOUiPNxtMb48qg/yYHPXVVxdUUwEy+3nb+1OiY+7dU3DdB8e2qC37AvpKrYlv0scY3v9dEivMhh0DQNR9uOA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\SalesAPI\\src\\Sales.Application\\Sales.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fparm\\.nuget\\packages\\serilog\\4.0.0\\serilog.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

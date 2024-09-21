@@ -1,0 +1,17 @@
+C:\Projetos\SalesAPI\src\Sales.Application\bin\Debug\net8.0\Sales.Application.deps.json
+C:\Projetos\SalesAPI\src\Sales.Application\bin\Debug\net8.0\Sales.Application.dll
+C:\Projetos\SalesAPI\src\Sales.Application\bin\Debug\net8.0\Sales.Application.pdb
+C:\Projetos\SalesAPI\src\Sales.Application\bin\Debug\net8.0\Sales.Data.dll
+C:\Projetos\SalesAPI\src\Sales.Application\bin\Debug\net8.0\Sales.Domain.dll
+C:\Projetos\SalesAPI\src\Sales.Application\bin\Debug\net8.0\Sales.Data.pdb
+C:\Projetos\SalesAPI\src\Sales.Application\bin\Debug\net8.0\Sales.Domain.pdb
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.csproj.AssemblyReference.cache
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.AssemblyInfoInputs.cache
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.AssemblyInfo.cs
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Ap.0A743CAB.Up2Date
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.dll
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\refint\Sales.Application.dll
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.pdb
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\ref\Sales.Application.dll

@@ -1,0 +1,14 @@
+2024-09-21 12:13:04.416 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-21 12:13:04.462 -03:00 [INF] Criando uma nova venda {"Id":"00000000-0000-0000-0000-000000000000","SaleNumber":"V001","SaleDate":"2024-09-21T10:00:00.0000000Z","CustomerName":"João Silva","TotalAmount":1500.00,"Branch":"Filial Central","Items":[{"Id":"00000000-0000-0000-0000-000000000000","ProductName":"Produto A","Quantity":2,"UnitPrice":500.00,"Discount":50.00,"TotalPrice":950.00,"$type":"SaleItem"},{"Id":"00000000-0000-0000-0000-000000000000","ProductName":"Produto B","Quantity":1,"UnitPrice":500.00,"Discount":0.00,"TotalPrice":500.00,"$type":"SaleItem"}],"IsCancelled":false,"$type":"Sale"}
+2024-09-21 12:13:04.492 -03:00 [INF] Venda V001 criada com sucesso
+2024-09-21 12:13:04.494 -03:00 [INF] Venda criada com ID "00000000-0000-0000-0000-000000000000"
+2024-09-21 12:13:04.519 -03:00 [INF] HTTP POST /api/sales responded 201 in 183.1711 ms
+2024-09-21 12:14:00.019 -03:00 [INF] Recebida requisição para criar uma nova venda
+2024-09-21 12:14:00.021 -03:00 [INF] Criando uma nova venda {"Id":"00000000-0000-0000-0000-000000000000","SaleNumber":"V001","SaleDate":"2024-09-21T10:00:00.0000000Z","CustomerName":"João Silva","TotalAmount":1500.00,"Branch":"Filial Central","Items":[{"Id":"00000000-0000-0000-0000-000000000000","ProductName":"Produto A","Quantity":2,"UnitPrice":500.00,"Discount":50.00,"TotalPrice":950.00,"$type":"SaleItem"},{"Id":"00000000-0000-0000-0000-000000000000","ProductName":"Produto B","Quantity":1,"UnitPrice":500.00,"Discount":0.00,"TotalPrice":500.00,"$type":"SaleItem"}],"IsCancelled":false,"$type":"Sale"}
+2024-09-21 12:14:00.045 -03:00 [INF] Venda V001 criada com sucesso
+2024-09-21 12:14:00.046 -03:00 [INF] Venda criada com ID "00000000-0000-0000-0000-000000000000"
+2024-09-21 12:14:00.048 -03:00 [INF] HTTP POST /api/sales responded 201 in 33.3393 ms
+2024-09-21 12:14:42.741 -03:00 [INF] Recebida requisição para listar todas as vendas
+2024-09-21 12:14:42.745 -03:00 [INF] Buscando todas as vendas
+2024-09-21 12:14:42.748 -03:00 [INF] Retornando 0 vendas
+2024-09-21 12:14:42.751 -03:00 [INF] HTTP GET /api/Sales responded 200 in 24.1748 ms

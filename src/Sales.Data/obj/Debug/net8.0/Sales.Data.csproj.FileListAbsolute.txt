@@ -1,0 +1,15 @@
+C:\Projetos\SalesAPI\src\Sales.Data\bin\Debug\net8.0\Sales.Data.deps.json
+C:\Projetos\SalesAPI\src\Sales.Data\bin\Debug\net8.0\Sales.Data.dll
+C:\Projetos\SalesAPI\src\Sales.Data\bin\Debug\net8.0\Sales.Data.pdb
+C:\Projetos\SalesAPI\src\Sales.Data\bin\Debug\net8.0\Sales.Domain.dll
+C:\Projetos\SalesAPI\src\Sales.Data\bin\Debug\net8.0\Sales.Domain.pdb
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.csproj.AssemblyReference.cache
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.AssemblyInfoInputs.cache
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.AssemblyInfo.cs
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.csproj.Up2Date
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.dll
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\refint\Sales.Data.dll
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.pdb
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\ref\Sales.Data.dll
