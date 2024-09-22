@@ -3,32 +3,59 @@
   "WorkspaceRootPath": "C:\\Projetos\\SalesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73254AF9-2AD6-48B6-9C4C-9A9EEA5A8404}|tests\\Sales.Tests\\Sales.Tests.csproj|c:\\projetos\\salesapi\\tests\\sales.tests\\sales\\saleservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73254AF9-2AD6-48B6-9C4C-9A9EEA5A8404}|tests\\Sales.Tests\\Sales.Tests.csproj|solutionrelative:tests\\sales.tests\\sales\\saleservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|c:\\projetos\\salesapi\\src\\sales.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|solutionrelative:src\\sales.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|c:\\projetos\\salesapi\\src\\sales.application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|solutionrelative:src\\sales.application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{17E78977-A437-4131-9F82-C1E7729BAADF}|docker-compose.dcproj|c:\\projetos\\salesapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{17E78977-A437-4131-9F82-C1E7729BAADF}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|c:\\projetos\\salesapi\\src\\sales.application\\interface\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|solutionrelative:src\\sales.application\\interface\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|c:\\projetos\\salesapi\\src\\sales.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|solutionrelative:src\\sales.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B0410C4-BF2D-4B5A-BE22-F34DC80CE391}|src\\Sales.Domain\\Sales.Domain.csproj|c:\\projetos\\salesapi\\src\\sales.domain\\entities\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B0410C4-BF2D-4B5A-BE22-F34DC80CE391}|src\\Sales.Domain\\Sales.Domain.csproj|solutionrelative:src\\sales.domain\\entities\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|c:\\projetos\\salesapi\\src\\sales.api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|solutionrelative:src\\sales.api\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|c:\\projetos\\salesapi\\src\\sales.data\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|solutionrelative:src\\sales.data\\repositories\\salesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|c:\\projetos\\salesapi\\src\\sales.data\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|solutionrelative:src\\sales.data\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|c:\\projetos\\salesapi\\src\\sales.data\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|solutionrelative:src\\sales.data\\context\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|c:\\projetos\\salesapi\\src\\sales.application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|solutionrelative:src\\sales.application\\services\\salesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B0410C4-BF2D-4B5A-BE22-F34DC80CE391}|src\\Sales.Domain\\Sales.Domain.csproj|c:\\projetos\\salesapi\\src\\sales.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B0410C4-BF2D-4B5A-BE22-F34DC80CE391}|src\\Sales.Domain\\Sales.Domain.csproj|solutionrelative:src\\sales.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|c:\\projetos\\salesapi\\src\\sales.application\\interface\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82362A53-E1F3-4427-A709-548D60E70587}|src\\Sales.Application\\Sales.Application.csproj|solutionrelative:src\\sales.application\\interface\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|c:\\projetos\\salesapi\\src\\sales.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|solutionrelative:src\\sales.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|c:\\projetos\\salesapi\\src\\sales.data\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{292803E8-1878-4FC8-820A-92D2046BDE2F}|src\\Sales.Data\\Sales.Data.csproj|solutionrelative:src\\sales.data\\interfaces\\isalerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73254AF9-2AD6-48B6-9C4C-9A9EEA5A8404}|tests\\Sales.Tests\\Sales.Tests.csproj|c:\\projetos\\salesapi\\tests\\sales.tests\\sales\\saleservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73254AF9-2AD6-48B6-9C4C-9A9EEA5A8404}|tests\\Sales.Tests\\Sales.Tests.csproj|solutionrelative:tests\\sales.tests\\sales\\saleservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B0410C4-BF2D-4B5A-BE22-F34DC80CE391}|src\\Sales.Domain\\Sales.Domain.csproj|c:\\projetos\\salesapi\\src\\sales.domain\\entities\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B0410C4-BF2D-4B5A-BE22-F34DC80CE391}|src\\Sales.Domain\\Sales.Domain.csproj|solutionrelative:src\\sales.domain\\entities\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +73,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Sales.API\\Program.cs",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Program.cs",
+              "RelativeToolTip": "src\\Sales.API\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:13:56.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.Data\\Context\\DbContext.cs",
+              "RelativeDocumentMoniker": "src\\Sales.Data\\Context\\DbContext.cs",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.Data\\Context\\DbContext.cs",
+              "RelativeToolTip": "src\\Sales.Data\\Context\\DbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA2wBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:12:44.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Sales.API\\appsettings.json",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\appsettings.json",
+              "RelativeToolTip": "src\\Sales.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T17:10:41.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "SaleServiceTests.cs",
               "DocumentMoniker": "C:\\Projetos\\SalesAPI\\tests\\Sales.Tests\\Sales\\SaleServiceTests.cs",
               "RelativeDocumentMoniker": "tests\\Sales.Tests\\Sales\\SaleServiceTests.cs",
@@ -54,30 +118,29 @@
               "RelativeToolTip": "tests\\Sales.Tests\\Sales\\SaleServiceTests.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAuwEwAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T15:26:56.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T15:26:56.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ISaleService.cs",
               "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.Application\\Interface\\ISaleService.cs",
               "RelativeDocumentMoniker": "src\\Sales.Application\\Interface\\ISaleService.cs",
               "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.Application\\Interface\\ISaleService.cs",
               "RelativeToolTip": "src\\Sales.Application\\Interface\\ISaleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T15:19:52.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "SalesService.cs",
               "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.Application\\Services\\SalesService.cs",
               "RelativeDocumentMoniker": "src\\Sales.Application\\Services\\SalesService.cs",
               "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.Application\\Services\\SalesService.cs",
               "RelativeToolTip": "src\\Sales.Application\\Services\\SalesService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAywCQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T14:37:27.568Z"
             },
@@ -89,13 +152,63 @@
               "RelativeDocumentMoniker": "src\\Sales.Data\\Repositories\\SalesRepository.cs",
               "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.Data\\Repositories\\SalesRepository.cs",
               "RelativeToolTip": "src\\Sales.Data\\Repositories\\SalesRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAMAAAAhAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA2wBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T14:35:35.856Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-21T19:18:57.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Sales.API\\Dockerfile",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Dockerfile",
+              "RelativeToolTip": "src\\Sales.API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-21T19:16:51.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "SalesController.cs",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Controllers\\SalesController.cs",
+              "RelativeDocumentMoniker": "src\\Sales.API\\Controllers\\SalesController.cs",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Controllers\\SalesController.cs",
+              "RelativeToolTip": "src\\Sales.API\\Controllers\\SalesController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:19:27.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AQIAALYAAAAAAAAAAAAcwMMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-21T18:56:03.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "SaleItem.cs",
               "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.Domain\\Entities\\SaleItem.cs",
               "RelativeDocumentMoniker": "src\\Sales.Domain\\Entities\\SaleItem.cs",
@@ -107,27 +220,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ISaleRepository.cs",
-              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
-              "RelativeDocumentMoniker": "src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
-              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
-              "RelativeToolTip": "src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T14:34:48.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.Domain\\Entities\\Sale.cs",
               "RelativeDocumentMoniker": "src\\Sales.Domain\\Entities\\Sale.cs",
               "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.Domain\\Entities\\Sale.cs",
               "RelativeToolTip": "src\\Sales.Domain\\Entities\\Sale.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T14:30:54.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ISaleRepository.cs",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
+              "RelativeDocumentMoniker": "src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
+              "RelativeToolTip": "src\\Sales.Data\\Interfaces\\ISaleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T14:34:48.297Z"
             }
           ]
         }

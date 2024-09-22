@@ -2,7 +2,7 @@
 {
     public class Sale
     {
-        public Guid Id { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
         public string SaleNumber { get; set; } = string.Empty;
         public DateTime SaleDate { get; set; }
         public string CustomerName { get; set; } = string.Empty;

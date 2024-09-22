@@ -13,3 +13,4 @@ C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.dll
 C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\refint\Sales.Data.dll
 C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.pdb
 C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\ref\Sales.Data.dll
+C:\Projetos\SalesAPI\src\Sales.Data\obj\Debug\net8.0\Sales.Data.sourcelink.json

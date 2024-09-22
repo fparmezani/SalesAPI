@@ -15,3 +15,4 @@ C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.dl
 C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\refint\Sales.Application.dll
 C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.pdb
 C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\ref\Sales.Application.dll
+C:\Projetos\SalesAPI\src\Sales.Application\obj\Debug\net8.0\Sales.Application.sourcelink.json

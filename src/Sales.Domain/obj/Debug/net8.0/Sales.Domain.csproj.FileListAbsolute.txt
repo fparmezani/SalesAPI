@@ -9,3 +9,4 @@ C:\Projetos\SalesAPI\src\Sales.Domain\obj\Debug\net8.0\Sales.Domain.dll
 C:\Projetos\SalesAPI\src\Sales.Domain\obj\Debug\net8.0\refint\Sales.Domain.dll
 C:\Projetos\SalesAPI\src\Sales.Domain\obj\Debug\net8.0\Sales.Domain.pdb
 C:\Projetos\SalesAPI\src\Sales.Domain\obj\Debug\net8.0\ref\Sales.Domain.dll
+C:\Projetos\SalesAPI\src\Sales.Domain\obj\Debug\net8.0\Sales.Domain.sourcelink.json

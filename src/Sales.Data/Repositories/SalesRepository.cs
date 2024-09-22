@@ -1,48 +1,66 @@
-﻿using Sales.Data.Interfaces;
+﻿using Dapper;
+using Sales.Data.Context;
+using Sales.Data.Interfaces;
 using Sales.Domain.Entities;
 
 namespace Sales.Data.Repositories
 {
     public class SaleRepository : ISaleRepository
     {
-        private readonly List<Sale> _sales = new List<Sale>();
+        private readonly DbContext _dbContext;
 
-        public Task<Sale> GetByIdAsync(Guid id)
+        public SaleRepository(DbContext dbContext)
         {
-            var sale = _sales.FirstOrDefault(s => s.Id == id);
-            return Task.FromResult(sale);
+            _dbContext = dbContext;
         }
 
-        public Task<List<Sale>> GetAllAsync()
+        public async Task<IEnumerable<Sale>> GetAllAsync()
         {
-            return Task.FromResult(_sales);
-        }
-
-        public Task AddAsync(Sale sale)
-        {
-            _sales.Add(sale);
-            return Task.CompletedTask;
-        }
-
-        public Task UpdateAsync(Sale sale)
-        {
-            var existingSale = _sales.FirstOrDefault(s => s.Id == sale.Id);
-            if (existingSale != null)
+            using (var connection = _dbContext.CreateConnection())
             {
-                _sales.Remove(existingSale);
-                _sales.Add(sale);
+                var query = "SELECT * FROM Sales";
+                return await connection.QueryAsync<Sale>(query);
             }
-            return Task.CompletedTask;
         }
 
-        public Task DeleteAsync(Guid id)
+        public async Task<Sale> GetByIdAsync(Guid id)
         {
-            var sale = _sales.FirstOrDefault(s => s.Id == id);
-            if (sale != null)
+            using (var connection = _dbContext.CreateConnection())
             {
-                _sales.Remove(sale);
+                var query = "SELECT * FROM Sales WHERE Id = @Id";
+                return await connection.QuerySingleOrDefaultAsync<Sale>(query, new { Id = id });
             }
-            return Task.CompletedTask;
         }
+
+        public async Task AddAsync(Sale sale)
+        {
+            using (var connection = _dbContext.CreateConnection())
+            {
+                var query = "INSERT INTO Sales (Id, SaleNumber, SaleDate, CustomerName, TotalAmount, Branch, IsCancelled) " +
+                            "VALUES (@Id, @SaleNumber, @SaleDate, @CustomerName, @TotalAmount, @Branch, @IsCancelled)";
+                await connection.ExecuteAsync(query, sale);
+            }
+        }
+
+        public async Task UpdateAsync(Sale sale)
+        {
+            using (var connection = _dbContext.CreateConnection())
+            {
+                var query = "UPDATE Sales SET SaleNumber = @SaleNumber, SaleDate = @SaleDate, CustomerName = @CustomerName, " +
+                            "TotalAmount = @TotalAmount, Branch = @Branch, IsCancelled = @IsCancelled WHERE Id = @Id";
+                await connection.ExecuteAsync(query, sale);
+            }
+        }
+
+        public async Task DeleteAsync(Guid id)
+        {
+            using (var connection = _dbContext.CreateConnection())
+            {
+                var query = "DELETE FROM Sales WHERE Id = @Id";
+                await connection.ExecuteAsync(query, new { Id = id });
+            }
+        }
+
+        
     }
 }
