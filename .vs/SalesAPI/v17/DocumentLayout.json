@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Projetos\\SalesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|c:\\projetos\\salesapi\\src\\sales.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|solutionrelative:src\\sales.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|Solution Items{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|C:\\Projetos\\SalesAPI\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|Solution Items{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E78977-A437-4131-9F82-C1E7729BAADF}|docker-compose.dcproj|c:\\projetos\\salesapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{17E78977-A437-4131-9F82-C1E7729BAADF}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|Solution Items{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|C:\\Projetos\\SalesAPI\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|Solution Items{7E709D77-33C6-4A83-92FB-9C295BCCDCA6}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0BF1B6DD-9E8B-4D96-B100-7FEC4BAD2BEE}|src\\Sales.API\\Sales.API.csproj|c:\\projetos\\salesapi\\src\\sales.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -65,11 +65,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\docker-compose.yml*",
+              "RelativeToolTip": "docker-compose.yml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-22T16:09:21.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Projetos\\SalesAPI\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-22T16:07:57.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,7 +107,8 @@
               "RelativeToolTip": "src\\Sales.API\\Program.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T17:13:56.467Z"
+              "WhenOpened": "2024-09-21T17:13:56.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -155,32 +182,6 @@
               "ViewState": "AQIAAAcAAAAAAAAAAAA2wBcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T14:35:35.856Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Projetos\\SalesAPI\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-09-21T19:18:57.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\Sales.API\\Dockerfile",
-              "ToolTip": "C:\\Projetos\\SalesAPI\\src\\Sales.API\\Dockerfile",
-              "RelativeToolTip": "src\\Sales.API\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-21T19:16:51.772Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

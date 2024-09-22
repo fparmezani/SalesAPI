@@ -1,22 +1,20 @@
 version: '3.4'
 
 services:
-  sales.api:
-    image: ${DOCKER_REGISTRY-}salesapi
+  salesapi:
+    image: salesapi
     build:
       context: .
-      dockerfile: src/Sales.API/Dockerfile
+      dockerfile: Sales.API/Dockerfile
     ports:
       - "5000:80"
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
     depends_on:
-      - db
-  
-  db:
-    image: "mcr.microsoft.com/mssql/server:2019-latest"
+      - sqlserver
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-latest
     environment:
-      SA_PASSWORD: "YourStrong!Passw0rd"
+      SA_PASSWORD: "Your_password123"
       ACCEPT_EULA: "Y"
     ports:
       - "1433:1433"
