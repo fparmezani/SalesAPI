@@ -1,5 +1,6 @@
 using Sales.Application.Interface;
 using Sales.Application.Services;
+using Sales.Data.Context;
 using Sales.Data.Interfaces;
 using Sales.Data.Repositories;
 using Serilog;
@@ -23,8 +24,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 builder.Services.AddScoped<ISaleService,SaleService>();
 builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+
+builder.Services.AddSingleton<DbContext>();
 
 var app = builder.Build();
 

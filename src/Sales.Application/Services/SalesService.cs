@@ -31,7 +31,7 @@ namespace Sales.Application.Services
 
         }
 
-        public async Task<List<Sale>> GetSalesAsync()
+        public async Task<IEnumerable<Sale>> GetSalesAsync()
         {
              _logger.Information("Buscando todas as vendas");
             var sales = await _saleRepository.GetAllAsync();

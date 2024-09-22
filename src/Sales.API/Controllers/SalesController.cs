@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Sales.Application.Interface;
 using Sales.Application.Services;
 using Sales.Domain.Entities;
 using Serilog;
@@ -10,10 +11,10 @@ namespace Sales.API.Controllers
     [ApiController]
     public class SalesController : ControllerBase
     {
-        private readonly SaleService _saleService;
+        private readonly ISaleService _saleService;
         private readonly ILogger _logger;
 
-        public SalesController(SaleService saleService)
+        public SalesController(ISaleService saleService)
         {
             _saleService = saleService;
             _logger = Log.ForContext<SalesController>();
@@ -24,7 +25,7 @@ namespace Sales.API.Controllers
         {
             _logger.Information("Recebida requisição para listar todas as vendas");
             var sales = await _saleService.GetSalesAsync();
-            _logger.Information("Retornando {Count} vendas", sales.Count);
+            _logger.Information("Retornando {Count} vendas", sales.ToList().Count);
             return Ok(sales);
         }
 

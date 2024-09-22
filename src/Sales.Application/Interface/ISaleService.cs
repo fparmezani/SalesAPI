@@ -6,7 +6,7 @@ namespace Sales.Application.Interface
     {
         Task CreateSaleAsync(Sale sale);
         Task UpdateSaleAsync(Sale sale);
-        Task<List<Sale>> GetSalesAsync();
+        Task<IEnumerable<Sale>> GetSalesAsync();
         Task<Sale> GetSaleByIdAsync(Guid id);
         Task DeleteSaleAsync(Guid id);
     }
