@@ -15,16 +15,47 @@ O **SalesAPI** é uma API RESTful para gerenciar vendas, clientes, filiais e ite
 
 ---
 
-## Pré-requisitos
+## Configuração
 
-Antes de começar, você precisará das seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
+### Pré-requisitos
 
-- [.NET SDK 8.0](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [Git](https://git-scm.com/)
-- [Postman](https://www.postman.com/) ou outra ferramenta para testar a API (opcional)
-- [Git Flow](https://danielkummer.github.io/git-flow-cheatsheet/index.html) (para seguir o modelo de versionamento)
+- **Docker** instalado
+- **Docker Compose** instalado
 
----
+### Configuração do Banco de Dados
+
+A aplicação utiliza o **SQL Server** como banco de dados. Para facilitar a criação e inicialização do banco de dados e das tabelas, foi incluído um arquivo **`init.sql`**. Esse script pode ser rodado manualmente em uma instância local do SQL Server se o usuário preferir, ou pode ser utilizado automaticamente quando o **Docker Compose** é executado.
+
+Se você preferir rodar o banco de dados localmente, pode mudar as configurações de conexão diretamente no arquivo **`appsettings.json`**.
+
+Exemplo de conexão no **appsettings.json**:
+
+```json
+{
+  "ConnectionStrings": {
+    "SalesDatabase": "Server=localhost,1433;Database=salesdb;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;"
+  }
+}
+```
+
+### Executar com Docker Compose
+
+Para rodar a aplicação e o banco de dados **SQL Server** juntos via **Docker Compose**, siga os passos abaixo:
+
+1. Certifique-se de que o **Docker** e **Docker Compose** estão instalados.
+2. No diretório do projeto, execute o seguinte comando para construir as imagens e rodar a aplicação:
+
+```bash
+docker-compose up --build
+```
+
+3. A aplicação estará disponível em **http://localhost:5000**.
+
+### Volumes e Persistência de Dados
+
+Para garantir que os dados do **SQL Server** sejam persistidos entre reinicializações, a configuração de **volumes** foi adicionada ao **docker-compose.yml**. Isso mantém os dados, mesmo que os contêineres sejam parados ou reiniciados.
+
+Se precisar modificar o local onde os dados do SQL Server são armazenados, você pode ajustar a configuração de volume no **docker-compose.yml**.
 
 ## Instalação
 
