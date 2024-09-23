@@ -4,7 +4,7 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>17e78977-a437-4131-9f82-c1e7729baadf</ProjectGuid>
+    <ProjectGuid>11b6ae80-e8dc-4295-8f82-d0ce2e2f7863</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>sales.api</DockerServiceName>
